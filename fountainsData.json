@@ -1,4 +1,49 @@
-[
+[  
+    {
+      "lat": 55.736962,
+      "lon": 24.323452,
+      "name": "Vandens Kolonėlė",
+      "details": "Vieta: Parko g. 24B, Gerimo fontanelis - Eksploatuojamas",
+      "photo": "",
+      "id": "fountain_20261005_01_x7p9q2lm",
+      "source": "AquaMap"
+    },
+    {
+      "lat": 55.737772,
+      "lon": 24.310995,
+      "name": "Vandens Kolonėlė",
+      "details": "Vieta: J. Janonio takas, Gerimo fontanelis - Eksploatuojamas",
+      "photo": "",
+      "id": "fountain_20261005_02_b3k8t1zs",
+      "source": "AquaMap"
+    },
+    {
+      "lat": 55.731120,
+      "lon": 24.405165,
+      "name": "Vandens Kolonėlė",
+      "details": "Vieta: Guobų g. 1A, Gerimo fontanelis - Eksploatuojamas",
+      "photo": "",
+      "id": "fountain_20261005_03_m9r4v7cx",
+      "source": "AquaMap"
+    },
+    {
+      "lat": 55.730389,
+      "lon": 24.391790,
+      "name": "Vandens Kolonėlė",
+      "details": "Vieta: Pajuostės pl. 27A, Gerimo fontanelis - Eksploatuojamas",
+      "photo": "",
+      "id": "fountain_20261005_04_t2n6w5qh",
+      "source": "AquaMap"
+    },
+    {
+      "lat": 55.730596,
+      "lon": 24.375066,
+      "name": "Vandens Kolonėlė",
+      "details": "Vieta: Skaistakalnio parkas, Gerimo fontanelis - Eksploatuojamas",
+      "photo": "",
+      "id": "fountain_20261005_05_f8s3d9kp",
+      "source": "AquaMap"
+    },
     {
       "lat": 55.735667,
       "lon": 24.334998,
