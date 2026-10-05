@@ -24,7 +24,7 @@
         .then(data => {
             data.forEach(f => {
                 L.marker([f.lat, f.lon]).addTo(map)
-                    .bindPopup(`<b>${f.name}</b><br>${f.address}<br>${f.description}`);
+                    .bindPopup(`<b>${item.name}</b><br>${item.details}`);
             });
         });
 </script>
