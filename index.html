@@ -12,57 +12,67 @@
 <h2>Panevėžio gertuvių žemėlapis</h2>
 <div id="map"></div>
 <button id="ortofotoBtn">Ortofoto</button>
+
 <script>
     const map = L.map('map').setView([55.726109, 24.362273], 16);
-// Įprastas OSM sluoksnis
-const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19
-}).addTo(map);
 
-const ortoLayer = L.tileLayer(
-  'https://tiles.openaerialmap.org/tiles/1.0.0/satellite/{z}/{x}/{y}.png',
-  {
-    maxZoom: 19,
-    attribution: '© OpenAerialMap'
-  }
-);
+    // Įprastas OSM sluoksnis
+    const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19
+    }).addTo(map);
 
+    // Ortofoto sluoksnis
+    const ortoLayer = L.tileLayer(
+      'https://tiles.openaerialmap.org/tiles/1.0.0/satellite/{z}/{x}/{y}.png',
+      {
+        maxZoom: 19,
+        attribution: '© OpenAerialMap'
+      }
+    );
+
+    // Mygtuko funkcija
     document.getElementById('ortofotoBtn').addEventListener('click', () => {
-    if (map.hasLayer(ortoLayer)) {
-        map.removeLayer(ortoLayer);
-        osmLayer.addTo(map);
-        document.getElementById('ortofotoBtn').innerText = "Ortofoto";
-    } else {
-        map.removeLayer(osmLayer);
-        ortoLayer.addTo(map);
-        document.getElementById('ortofotoBtn').innerText = "OSM";
-    }
-});
+        if (map.hasLayer(ortoLayer)) {
+            map.removeLayer(ortoLayer);
+            osmLayer.addTo(map);
+            document.getElementById('ortofotoBtn').innerText = "Ortofoto";
+        } else {
+            map.removeLayer(osmLayer);
+            ortoLayer.addTo(map);
+            document.getElementById('ortofotoBtn').innerText = "OSM";
+        }
+    });
 
+    // Panevėžio taškai
     fetch('fountainsData.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(f => {
                 L.marker([f.lat, f.lon]).addTo(map)
                     .bindPopup(`
-    <b>${f.name}</b><br>
-    ${f.details}<br>
-    <img src="${f.photo}" style="width:200px; margin-top:8px; border-radius:6px;">
-`);
+                        <b>${f.name}</b><br>
+                        ${f.details}<br>
+                        <img src="${f.photo}" style="width:200px; margin-top:8px; border-radius:6px;">
+                    `);
             });
         });
-    fetch('fountainsData.json')
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(f => {
-            L.marker([f.lat, f.lon]).addTo(map)
-                .bindPopup(`
-<b>${f.name}</b><br>
-${f.details}<br>
-<img src="${f.photo}" style="width:200px; margin-top:8px; border-radius:6px;">
-`);
+
+    // EUROPOS miestai
+    fetch('data/europeFountains.json')
+        .then(r => r.json())
+        .then(cities => {
+            cities.forEach(city => {
+                city.points.forEach(p => {
+                    L.marker([p.lat, p.lon]).addTo(map)
+                        .bindPopup(`
+                            <b>${city.city}, ${city.country}</b><br>
+                            ${p.details}
+                        `);
+                });
+            });
         });
-    });
+
 </script>
+
 </body>
 </html>
