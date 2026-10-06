@@ -28,10 +28,7 @@ const ortoLayer = L.tileLayer(
   }
 );
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19
-    }).addTo(map);
-document.getElementById('ortofotoBtn').addEventListener('click', () => {
+    document.getElementById('ortofotoBtn').addEventListener('click', () => {
     if (map.hasLayer(ortoLayer)) {
         map.removeLayer(ortoLayer);
         osmLayer.addTo(map);
