@@ -1,5 +1,4 @@
 [
-  [
   {
     "city": "Vienna",
     "country": "Austria",
@@ -90,6 +89,4 @@
       {"lat": 55.685000, "lon": 12.579000, "details": "Public water – Nyhavn"}
     ]
   }
-]
-
 ]
