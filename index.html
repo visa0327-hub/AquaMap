@@ -19,14 +19,14 @@ const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
   maxZoom: 19
 }).addTo(map);
 
-// Ortofoto sluoksnis (maps.lt)
-const ortoLayer = L.tileLayer(
-  'https://tiles.maps.lt/ortofoto/{z}/{x}/{y}.jpg',
-  {
-    maxZoom: 19,
-    attribution: '© maps.lt'
-  }
-);
+// Ortofoto sluoksnis (geoportal.lt WMS – veikia)
+const ortoLayer = L.tileLayer.wms("https://www.geoportal.lt/mapproxy/wms", {
+    layers: "ortofoto",
+    format: "image/jpeg",
+    transparent: false,
+    attribution: "© geoportal.lt"
+});
+
 
     document.getElementById('ortofotoBtn').addEventListener('click', () => {
     if (map.hasLayer(ortoLayer)) {
