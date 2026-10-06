@@ -14,6 +14,19 @@
 <button id="ortofotoBtn">Ortofoto</button>
 <script>
     const map = L.map('map').setView([55.7369, 24.3234], 16);
+// Įprastas OSM sluoksnis
+const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19
+}).addTo(map);
+
+// Ortofoto sluoksnis (maps.lt)
+const ortoLayer = L.tileLayer(
+  'https://tiles.maps.lt/ortofoto/{z}/{x}/{y}.jpg',
+  {
+    maxZoom: 19,
+    attribution: '© maps.lt'
+  }
+);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19
