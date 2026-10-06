@@ -3,90 +3,126 @@
     "city": "Vienna",
     "country": "Austria",
     "points": [
-      {"lat": 48.208174, "lon": 16.373819, "details": "Drinking fountain – Stephansplatz"},
-      {"lat": 48.210033, "lon": 16.363449, "details": "Public water tap – Rathausplatz"},
-      {"lat": 48.198674, "lon": 16.369540, "details": "Water tap – Karlsplatz"}
+      {"lat": 48.2116998, "lon": 16.3766441, "details": "Public Water Fountain"},
+      {"lat": 48.2052172, "lon": 16.3710534, "details": "Municipal Drinking Fountain"},
+      {"lat": 48.2082431, "lon": 16.3706673, "details": "Water Refill Station"},
+      {"lat": 48.2052635, "lon": 16.371077, "details": "Hydration Point"},
+      {"lat": 48.1965167, "lon": 16.3565414, "details": "Naschmarkt Fountain"},
+      {"lat": 48.1885338, "lon": 16.3815060, "details": "Belvedere Garden Fountain"},
+      {"lat": 48.1856216, "lon": 16.3746423, "details": "Vienna Main Station Water"},
+      {"lat": 48.2063872, "lon": 16.3706770, "details": "Neuer Markt Fountain"}
     ]
   },
   {
     "city": "Berlin",
     "country": "Germany",
     "points": [
-      {"lat": 52.520008, "lon": 13.404954, "details": "Trinkwasser – Alexanderplatz"},
-      {"lat": 52.517036, "lon": 13.388860, "details": "Public water – Brandenburg Gate"},
-      {"lat": 52.531677, "lon": 13.381777, "details": "Drinking fountain – Hauptbahnhof"}
+      {"lat": 52.5080167, "lon": 13.3901346, "details": "Water Tap"},
+      {"lat": 52.5166371, "lon": 13.4064403, "details": "Trinkwasser"},
+      {"lat": 52.5175880, "lon": 13.3344700, "details": "Wasserspender"},
+      {"lat": 52.4904278, "lon": 13.3134689, "details": "Water Tap"},
+      {"lat": 52.4890759, "lon": 13.4391331, "details": "Drinking Water Fountain"},
+      {"lat": 52.5412765, "lon": 13.3987240, "details": "Trinkbrunnen"},
+      {"lat": 52.4967269, "lon": 13.4058023, "details": "Water Tap"},
+      {"lat": 52.5489040, "lon": 13.3628449, "details": "Water Tap"}
     ]
   },
   {
     "city": "Amsterdam",
     "country": "Netherlands",
     "points": [
-      {"lat": 52.372759, "lon": 4.893604, "details": "Waternet tap – Dam Square"},
-      {"lat": 52.370216, "lon": 4.895168, "details": "Waternet tap – Rokin"},
-      {"lat": 52.363921, "lon": 4.881091, "details": "Waternet tap – Museumplein"}
+      {"lat": 52.3729679, "lon": 4.8743422, "details": "Water Tap"},
+      {"lat": 52.3322424, "lon": 4.8902542, "details": "Water Tap"},
+      {"lat": 52.3720599, "lon": 4.9013916, "details": "Water Tap"},
+      {"lat": 52.3488124, "lon": 4.9266228, "details": "Water Tap"},
+      {"lat": 52.3567054, "lon": 4.8799336, "details": "Drinkable Tap Water"},
+      {"lat": 52.3610713, "lon": 4.9213398, "details": "Water Tap"},
+      {"lat": 52.3821158, "lon": 4.9086857, "details": "Water Tap"},
+      {"lat": 52.3660511, "lon": 4.8972817, "details": "Water Tap"}
     ]
   },
   {
     "city": "Paris",
     "country": "France",
     "points": [
-      {"lat": 48.856613, "lon": 2.352222, "details": "Wallace fountain – Hôtel de Ville"},
-      {"lat": 48.860611, "lon": 2.337644, "details": "Wallace fountain – Louvre"},
-      {"lat": 48.853000, "lon": 2.349900, "details": "Wallace fountain – Notre-Dame"}
+      {"lat": 48.8621430, "lon": 2.3453635, "details": "Tap Water"},
+      {"lat": 48.8844016, "lon": 2.3383278, "details": "Wallace Fountain"},
+      {"lat": 48.8557763, "lon": 2.3654948, "details": "Water Tap"},
+      {"lat": 48.8416285, "lon": 2.3878104, "details": "Sparkling Water Fountain"},
+      {"lat": 48.8365032, "lon": 2.3725027, "details": "Eau de Paris Fountain"},
+      {"lat": 48.8633623, "lon": 2.3271559, "details": "Water Tap"},
+      {"lat": 48.8560958, "lon": 2.3406509, "details": "Water Tap"},
+      {"lat": 48.8532934, "lon": 2.3571243, "details": "Free Public Water Fountain"}
     ]
   },
   {
     "city": "Rome",
     "country": "Italy",
     "points": [
-      {"lat": 41.902783, "lon": 12.496366, "details": "Nasoni fountain – Piazza Venezia"},
-      {"lat": 41.890251, "lon": 12.492373, "details": "Nasoni fountain – Colosseum"},
-      {"lat": 41.898600, "lon": 12.476800, "details": "Nasoni fountain – Piazza Navona"}
+      {"lat": 41.8952585, "lon": 12.4812863, "details": "Drinking Water Fountain"},
+      {"lat": 41.8901861, "lon": 12.4902612, "details": "Water Fountain"},
+      {"lat": 41.8957118, "lon": 12.4773477, "details": "Drinking Water Fountain"},
+      {"lat": 41.8782679, "lon": 12.4864699, "details": "Drinking Water Fountain"},
+      {"lat": 41.8936629, "lon": 12.4923197, "details": "San Pietro in Vincoli Fountain"},
+      {"lat": 41.8955765, "lon": 12.4932136, "details": "Drinking Water Fountain"},
+      {"lat": 41.8954929, "lon": 12.4730743, "details": "Nasone Public Fountain"},
+      {"lat": 41.8879386, "lon": 12.5145543, "details": "Free Water Dispenser"}
     ]
   },
   {
     "city": "Madrid",
     "country": "Spain",
     "points": [
-      {"lat": 40.416775, "lon": -3.703790, "details": "Public water tap – Puerta del Sol"},
-      {"lat": 40.413800, "lon": -3.692100, "details": "Drinking fountain – Retiro Park"},
-      {"lat": 40.421000, "lon": -3.688000, "details": "Water tap – Prado Museum"}
+      {"lat": 40.4168722, "lon": -3.7183591, "details": "Water Fountain"},
+      {"lat": 40.4194914, "lon": -3.7178240, "details": "Water Fountain"},
+      {"lat": 40.4173710, "lon": -3.7012778, "details": "Public Water Fountain"},
+      {"lat": 40.4103832, "lon": -3.6896655, "details": "Public Drinking Water"},
+      {"lat": 40.4139076, "lon": -3.6883267, "details": "Water Fountain"},
+      {"lat": 40.4144934, "lon": -3.7031171, "details": "Water Fountain"},
+      {"lat": 40.4187775, "lon": -3.6865132, "details": "Drinking Fountain"},
+      {"lat": 40.4169136, "lon": -3.7049189, "details": "Water Fountain"}
     ]
   },
   {
     "city": "Prague",
     "country": "Czech Republic",
     "points": [
-      {"lat": 50.087465, "lon": 14.421254, "details": "Drinking fountain – Old Town Square"},
-      {"lat": 50.090000, "lon": 14.400000, "details": "Water tap – Letná Park"},
-      {"lat": 50.075500, "lon": 14.437800, "details": "Public water – Wenceslas Square"}
+      {"lat": 50.0837638, "lon": 14.4243595, "details": "Drinking Fountain"},
+      {"lat": 50.0499976, "lon": 14.4351359, "details": "Public Water Fountain"},
+      {"lat": 50.0826430, "lon": 14.4254740, "details": "Veřejné Pítko"},
+      {"lat": 50.0907858, "lon": 14.4096050, "details": "Drinking Fountain"},
+      {"lat": 50.0847429, "lon": 14.4188177, "details": "Pítko Jilská"},
+      {"lat": 50.0776433, "lon": 14.4130795, "details": "Pítko Slovanský Ostrov"},
+      {"lat": 50.0803306, "lon": 14.4406874, "details": "Pítko Riegrovy Sady"},
+      {"lat": 50.0859259, "lon": 14.4323642, "details": "Drinking Fountain"}
     ]
   },
   {
     "city": "Warsaw",
     "country": "Poland",
     "points": [
-      {"lat": 52.229675, "lon": 21.012230, "details": "Drinking fountain – Castle Square"},
-      {"lat": 52.231000, "lon": 21.005000, "details": "Water tap – Saxon Garden"},
-      {"lat": 52.239000, "lon": 21.017500, "details": "Public water – Łazienki Park"}
+      {"lat": 52.2541333, "lon": 21.0101523, "details": "Drinking Tap Water"},
+      {"lat": 52.2402953, "lon": 21.0268560, "details": "Fontanna Powiśle"},
+      {"lat": 52.2099944, "lon": 20.9978195, "details": "Drinking Water Source"},
+      {"lat": 52.2265070, "lon": 21.0096473, "details": "Public Fountain"},
+      {"lat": 52.1795251, "lon": 21.0331011, "details": "Zdrój"},
+      {"lat": 52.1517282, "lon": 21.0045180, "details": "Water Supplier"},
+      {"lat": 52.2402953, "lon": 21.0268560, "details": "Public Water"},
+      {"lat": 52.2541333, "lon": 21.0101523, "details": "Water Fountain"}
     ]
   },
   {
     "city": "Budapest",
     "country": "Hungary",
     "points": [
-      {"lat": 47.497913, "lon": 19.040236, "details": "Drinking fountain – Vörösmarty Square"},
-      {"lat": 47.500000, "lon": 19.039900, "details": "Water tap – St. Stephen's Basilica"},
-      {"lat": 47.515000, "lon": 19.077000, "details": "Public water – City Park"}
-    ]
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "points": [
-      {"lat": 55.676098, "lon": 12.568337, "details": "Drinking fountain – City Hall Square"},
-      {"lat": 55.682000, "lon": 12.571000, "details": "Water tap – Tivoli Gardens"},
-      {"lat": 55.685000, "lon": 12.579000, "details": "Public water – Nyhavn"}
+      {"lat": 47.5032174, "lon": 19.0502122, "details": "Drinking Water Fountain"},
+      {"lat": 47.4996744, "lon": 19.0352555, "details": "Drinking Water"},
+      {"lat": 47.5074721, "lon": 19.0501485, "details": "Water Fountain"},
+      {"lat": 47.4978648, "lon": 19.0410860, "details": "Drinking Water Fountain"},
+      {"lat": 47.5018692, "lon": 19.0454176, "details": "Water Point"},
+      {"lat": 47.5013433, "lon": 19.0346926, "details": "Drinking Water Fountain"},
+      {"lat": 47.5263927, "lon": 19.0500989, "details": "Drinking Fountain"},
+      {"lat": 47.4971916, "lon": 19.0566488, "details": "Madách Drinking Fountain"}
     ]
   }
 ]
