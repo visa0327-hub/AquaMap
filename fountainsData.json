@@ -22,7 +22,7 @@
       "lon": 24.405165,
       "name": "Vandens Kolonėlė",
       "details": "Vieta: Guobų g. 1A, Gerimo fontanelis - Eksploatuojamas",
-      "photo": "",
+      "photo": "data/Guobų g. 1A.jpg",
       "id": "fountain_20261005_03_m9r4v7cx",
       "source": "AquaMap"
     },
@@ -40,7 +40,7 @@
       "lon": 24.375066,
       "name": "Vandens Kolonėlė",
       "details": "Vieta: Skaistakalnio parkas, Gerimo fontanelis - Eksploatuojamas",
-      "photo": "",
+      "photo": "data/Skaistakalnio parkas.jpg",
       "id": "fountain_20261005_05_f8s3d9kp",
       "source": "AquaMap"
     },
@@ -69,7 +69,7 @@
       "details": "Vieta: Tiskeviciaus, Gerimo fontanelis - Eksploatuojamas",
       "id": "fountain_1746618923304_rl6734ef7",
       "source": "AquaMap",
-      "photo": ""
+      "photo": "data/Tiskeviciaus.jpg"
     },
     {
       "lat": 55.72991545029289,
