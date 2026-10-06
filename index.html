@@ -31,6 +31,17 @@ const ortoLayer = L.tileLayer(
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19
     }).addTo(map);
+document.getElementById('ortofotoBtn').addEventListener('click', () => {
+    if (map.hasLayer(ortoLayer)) {
+        map.removeLayer(ortoLayer);
+        osmLayer.addTo(map);
+        document.getElementById('ortofotoBtn').innerText = "Ortofoto";
+    } else {
+        map.removeLayer(osmLayer);
+        ortoLayer.addTo(map);
+        document.getElementById('ortofotoBtn').innerText = "OSM";
+    }
+});
 
     fetch('fountainsData.json')
         .then(response => response.json())
