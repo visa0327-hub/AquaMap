@@ -51,7 +51,18 @@ const ortoLayer = L.tileLayer(
 `);
             });
         });
+    fetch('fountainsData.json')
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(f => {
+            L.marker([f.lat, f.lon]).addTo(map)
+                .bindPopup(`
+<b>${f.name}</b><br>
+${f.details}<br>
+<img src="${f.photo}" style="width:200px; margin-top:8px; border-radius:6px;">
+`);
+        });
+    });
 </script>
-
 </body>
 </html>
