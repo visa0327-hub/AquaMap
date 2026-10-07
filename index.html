@@ -14,7 +14,7 @@
 <button id="ortofotoBtn">Ortofoto</button>
 
 <script>
-    const map = L.map('map').setView([55.730044, 24.367196], 14);
+    const map = L.map('map').setView([55.7333, 24.3575], 13);
 
     // Įprastas OSM sluoksnis
     const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -43,12 +43,30 @@
         }
     });
 
+    // Ikonos
+    const fountainIcon = L.icon({
+        iconUrl: 'marker.png',
+        iconSize: [32, 32]
+    });
+
+    const koloneleIcon = L.icon({
+        iconUrl: 'kolonele.png',   // ŽALIA IKONA
+        iconSize: [32, 32]
+    });
+
     // Panevėžio taškai
     fetch('fountainsData.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(f => {
-                L.marker([f.lat, f.lon]).addTo(map)
+
+                // Pasirenkame ikoną pagal tipą
+                let iconToUse = fountainIcon;
+                if (f.type === "kolonele") {
+                    iconToUse = koloneleIcon;
+                }
+
+                L.marker([f.lat, f.lon], { icon: iconToUse }).addTo(map)
                     .bindPopup(`
                         <b>${f.name}</b><br>
                         ${f.details}<br>
