@@ -1,17 +1,22 @@
+/* Bendras stilius */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Žemėlapio konteineris */
 #map {
     height: 90vh;
     width: 100%;
 }
 
+/* Pavadinimas viršuje */
 h2 {
     text-align: center;
     margin: 10px 0;
 }
-#ortofotoBtn {
-    display: none;
+
+/* Žalia kolonėlės ikona – nudažome mėlyną marker.png */
+.green-icon {
+    filter: hue-rotate(120deg) saturate(200%);
 }
