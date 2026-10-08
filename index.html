@@ -71,7 +71,11 @@
 
                 L.marker([item.lat, item.lon], { icon })
                     .addTo(map)
-                    .bindPopup(`<b>${item.name}</b><br>${item.details}`);
+                    .bindPopup(`
+    <b>${item.name}</b><br>
+    ${item.details}<br>
+    <img src="${item.photo}" width="220" style="margin-top:8px; border-radius:6px;">
+`);
             });
         });
 </script>
