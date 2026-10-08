@@ -1,4 +1,36 @@
 [  
+     {
+  "lat": 55.741750,
+  "lon": 24.337850,
+  "name": "Vandens kolonėlė",
+  "details": "Plukių g. 8. Vandens kolonėlė",
+  "photo": "",
+  "type": "kolonele"
+},
+   {
+  "lat": 55.741037,
+  "lon": 24.355047,
+  "name": "Vandens kolonėlė",
+  "details": "Pušaloto - Stoties. Vandens kolonėlė",
+  "photo": "",
+  "type": "kolonele"
+},
+   {
+  "lat": 55.730261,
+  "lon": 24.361048,
+  "name": "Vandens kolonėlė",
+  "details": "Kranto g. 7. Vandens kolonėlė",
+  "photo": "",
+  "type": "kolonele"
+},
+   {
+  "lat": 55.730412,
+  "lon": 24.385657,
+  "name": "Vandens kolonėlė",
+  "details": "J. Marių g. 16. Vandens kolonėlė",
+  "photo": "",
+  "type": "kolonele"
+},
    {
   "lat": 55.726041,
   "lon": 24.355332,
